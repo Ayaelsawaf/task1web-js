@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: rgb(228, 171, 200);
+}
+.line{
+    width: 120px;
+    height: 2px;
+    background-color: black;
+    border-radius: 2px;
+    margin: auto;
+    margin-top: 5px;
+}
+.list{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 50px;
+}
+#btn{
+    margin: auto;
+    font-size: 15px;
+    animation-name: btn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.list img{
+    margin-left: 10px;
+    padding: 10px;
+    border: 2px solid rgb(103, 6, 55);
+}
+@keyframes btn{
+    from{
+        background-color: white;
+        color: hotpink;
+    }
+    to{
+        background-color: rgb(42, 6, 15);
+        color: white;
+    }
+}
